@@ -9,4 +9,5 @@ This lab report is due Thursday Nov 21 at 12pm (in lecture - there is no lab nex
 3. The approach you read about about in 1. will only work for binary images. Select `Image > Type > 8bit`.
 4. Adjust the threshold using `Image > Adjust > Threshold` as described in 1. (You do not need to adjust the Color Threshold as your image is now black and white).
 5. Now read the section _Analyze Particles_. Select Choose `Analyze > Analyze Particles...` In the `Show:` menu choose the `Outlines` option from the drop down menu. Change `Size (pixel^2)` to `200-Infinity`.
-6. Save the image showing the duck outlines so that you can hand it in for your lab write up.
+6. Save the image showing the black duck outlines with the red numbers so that you can hand it in for your lab write up.
+7. 
