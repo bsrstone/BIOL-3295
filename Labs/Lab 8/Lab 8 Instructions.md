@@ -11,7 +11,7 @@ This lab report is due Thursday Nov 21 at 12pm (in lecture - there is no lab nex
 5. Now read the section _Analyze Particles_. Select Choose `Analyze > Analyze Particles...` In the `Show:` menu choose the `Outlines` option from the drop down menu. Change `Size (pixel^2)` to `200-Infinity`.
 6. Save the processed image showing the black duck outlines with the red numbers so that you can hand it in for your lab write up.
 7. You can also try to start all over and use a color threshold. Doing so, has revealled to me at least, that the black and white thresholding seems to work a bit better for this duck counting exercise.
-8. Find an image of a population from the internet, download it, and include the original image in your lab report.
+8. Find an image of a population from the internet, download it, and include the original image in your lab report. Here's the image that I used when testing out this lab: https://earther.gizmodo.com/alaska-s-caribou-boomed-last-year-and-scientists-aren-t-1822023734
 9. Use `ImageJ` to count the individuals in your internet image. Save the processed image showing the black outlines with the red numbers to hand in with your lab report.
 10. In your lab report write a paragraph describing how well the individuals were counted for your internet image.
 
