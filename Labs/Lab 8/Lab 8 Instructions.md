@@ -4,6 +4,7 @@
 This lab report is due Thursday Nov 21 at 12pm (in lecture - there is no lab next week)
 
 ## Part 1: Image analysis
+Part 1 of this lab requires `ImageJ`. If you haven't already, please install this software: https://imagej.nih.gov/ij/download.html or https://imagej.net/Downloads.
 1. Read _Section 5.1.1 Manual thresholding_ on this https://imagej.net/Particle_Analysis#Automatic_Particle_counting.
 2. Open the `ImageJ` software. Select `File > Open` and find the file _Duck example.jpg_
 3. The approach you read about about in 1. will only work for binary images. Select `Image > Type > 8bit`.
