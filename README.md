@@ -1,9 +1,6 @@
 # Announcements
-- Assignment 3 is posted. It is due Friday Nov 15.
-- There is no lab on Wednesday this week.
-- Count the ducks and submit your pull request. See me this week if you need help.
-- Reading: Vandermeer and Goldberg, Metapopulations. p142-151
-- Andow et al. 1990. Spread of invading organisms. Available on Brightspace.
+- Assignment 3 is posted. It is due Tues Nov 19.
+- This weeks lab requires `ImageJ`. If you haven't already, please install this software: https://imagej.nih.gov/ij/download.html or https://imagej.net/Downloads.
 
 ## R Help
 - The pirates guide to R pretty good: https://bookdown.org/ndphillips/YaRrr/
