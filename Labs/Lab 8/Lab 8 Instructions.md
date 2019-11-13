@@ -16,3 +16,6 @@ Part 1 of this lab requires `ImageJ`. If you haven't already, please install thi
 9. Use `ImageJ` to count the individuals in your internet image. Save the processed image showing the black outlines with the red numbers to hand in with your lab report. When I practiced this question, I used a Color Threshold for White, and set `Size (pixel^2)` to `200-Infinity`. I counted 695 caribou.
 10. In your lab report write a paragraph describing how well the individuals were counted for your internet image. My number of counted caribou was quite sensitive to my choice of `Size (pixel^2)`. Comparing my processed image with the original image revealed that 695 is likely an underestimate as it seemed more common that actual caribou were uncounted than sections of the background were misidentified and included in the count.
 
+## Part 2: Duck counts over time
+1. From the folder _Labs > Lab 8_ download the files _DuckDataAnalysis.R_ and _Duck_All_Data.csv_. Download the file _Duck_dates.csv_ from the folder  _Labs > Duck_data_.
+2. Run the file _DuckDataAnalysis.R_. To get this file to run you will need set the path to _Duck_All_Data.csv_ and _Duck_dates.csv_.
