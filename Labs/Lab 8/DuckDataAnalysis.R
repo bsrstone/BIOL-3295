@@ -147,6 +147,7 @@ abline(F19)
 # I think we really need to start counting the ducks in December and January
 # because it seems like currently we are not sampling when all the action
 # happens!
+# ----------
 
 # Diagnostic plots (commented out - unnecessary for Lab)
 #----------------
