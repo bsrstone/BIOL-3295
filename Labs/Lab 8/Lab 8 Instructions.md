@@ -17,5 +17,6 @@ Part 1 of this lab requires `ImageJ`. If you haven't already, please install thi
 10. In your lab report write a paragraph describing how well the individuals were counted for your internet image. My number of counted caribou was quite sensitive to my choice of `Size (pixel^2)`. Comparing my processed image with the original image revealed that 695 is likely an underestimate as it seemed more common that actual caribou were uncounted than sections of the background were misidentified and included in the count.
 
 ## Part 2: Duck counts over time
-1. From the folder _Labs > Lab 8_ download the files _DuckDataAnalysis.R_ and _Duck_All_Data.csv_. Download the file _Duck_dates.csv_ from the folder  _Labs > Duck_data_.
+1. From the folder _Labs > Lab 8_ download the files _DuckDataAnalysis.R_ and _Duck_All_Data.csv_. Download the file _Duck_dates.csv_ from the folder _Labs > Duck_data_.
 2. Run the file _DuckDataAnalysis.R_. To get this file to run you will need set the path to _Duck_All_Data.csv_ and _Duck_dates.csv_.
+3. Save the figure with 3 panels. Hand in this figure with a figure caption. In the figure caption report the slope of the regressions and the associated p-values.
