@@ -31,12 +31,12 @@ require(chron)
 # This will help you if Duck_Dates.csv is saved in the same folder as this R code.
 Duck.dataF19 = read.csv('~/Desktop/BIOL-3295/Labs/Duck_data/Duck_Dates.csv')
 
-# Let's take a look at our duck
+# Let's take a look at our duck data
 head(Duck.dataF19)
 
-# Note that something weird has happed in the 'Time' column that would need to be
-# fixed if we were to work with is column. We, however, will only work with
-# the columns 'Date' and 'Count'. We want to make a graph with time since
+# Note that something weird has happened in the 'Time' column that would need to be
+# fixed if we were to work with this column. We, however, will only work with
+# the columns 'Date' and 'Count'. We want to make a graph with time in
 # days since Jan 1, 2017 on the x-axis and count on the y-axis.
 
 # Let's start with 'Count'
@@ -45,7 +45,7 @@ Duck.dataF19$Count
 # Observe that some rows have no data: 'NA'. We should remove these rows:
 Data.v1 = na.omit(Duck.dataF19)
 
-# Let's check this worked out okay. One problem might be if the entire row
+# Let's check if this worked out okay. One problem might be if the entire row
 # containing the NA wasn't removed.
 head(Data.v1)
 # Our data looks okay.
@@ -67,7 +67,7 @@ New.Dates$month = as.numeric(New.Dates$month)
 New.Dates$year = as.numeric(New.Dates$year)
 
 # Those few lines of code above are aimed at getting the data into the correct
-# format so that the data can be used in the julian() function do determine
+# format so that the data can be used in the julian() function to determine
 # how many days since Jan 1, 2017 our observations have been taken from. I choose
 # 2017 because I first started doing this duck lab in 2017.
 Days.Since = julian(New.Dates$month,New.Dates$day, New.Dates$year, c(month = 1,day= 1,year = 2017))
@@ -91,7 +91,7 @@ summary(F19)
 abline(F19)
 
 # Aside: Possibly, you are thinking, that I really should have deleted the "-", replaced
-# them with "," in the original .csv file to save myself a lot of hassle. (1) is is 
+# them with "," in the original .csv file to save myself a lot of hassle. (1) it is 
 # good practicle to process the data in R, but leave the original data alone, to prevent
 # accidental, inadvertant changes, and (2) cleaning data is the life of a data scientist!
 # ... and I wanted to show you that this is an important part of that career.
